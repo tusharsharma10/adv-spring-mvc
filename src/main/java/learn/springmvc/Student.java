@@ -9,6 +9,23 @@ public class Student {
 	private String country;
 	private List<String> countryList;
 	private String favLanguage;
+	private List<String> favLanguageList;
+	private String[] operatingSystems;
+	
+
+	
+
+	public String[] getOperatingSystems() {
+		return operatingSystems;
+	}
+
+	public void setOperatingSystems(String[] operatingSystems) {
+		this.operatingSystems = operatingSystems;
+	}
+
+	public List<String> getFavLanguageList() {
+		return favLanguageList;
+	}
 
 	public String getFavLanguage() {
 		return favLanguage;
@@ -55,6 +72,10 @@ public class Student {
 		countryList.add("Kenya");
 		countryList.add("Pakistan");
 		
+		favLanguageList = new ArrayList<>();
+		favLanguageList.add("JAVA");
+		favLanguageList.add("C++");
+		favLanguageList.add("Python");
 	}
 
 }
