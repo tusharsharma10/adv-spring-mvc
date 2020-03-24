@@ -23,6 +23,13 @@
 		</form:select>
 		<br>
 		<br>
+		JAVA &nbsp<form:radiobutton path="favLanguage" value="JAVA" />
+		C++  &nbsp<form:radiobutton path="favLanguage" value="C++" />
+		Python &nbsp<form:radiobutton path="favLanguage" value="Python" />
+
+		<br>
+		<br>
+
 		<input type="submit" value="Submit Name">
 	</form:form>
 

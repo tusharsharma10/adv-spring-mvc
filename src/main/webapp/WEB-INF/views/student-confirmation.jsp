@@ -10,5 +10,7 @@
 <h1>Student is confirmed: ${student2.firstName }  ${ student2.lastName} </h1>
 <br><br>
 <h1>Country: ${student2.country} </h1>
+<br><br>
+<h1>Student's Favorite language is: ${student2.favLanguage} </h1>
  </body>
 </html>

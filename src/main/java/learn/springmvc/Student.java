@@ -8,6 +8,15 @@ public class Student {
 	private String lastName;
 	private String country;
 	private List<String> countryList;
+	private String favLanguage;
+
+	public String getFavLanguage() {
+		return favLanguage;
+	}
+
+	public void setFavLanguage(String favLanguage) {
+		this.favLanguage = favLanguage;
+	}
 
 	public List<String> getCountryList() {
 		return countryList;
